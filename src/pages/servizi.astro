@@ -1,0 +1,219 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+<Layout>
+    <Header currentPage="servizi" />
+    
+    <main class="min-h-screen bg-gray-50">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">I Nostri Servizi</h1>
+                <p class="text-xl text-gray-300">Soluzioni di modellistica per ogni esigenza</p>
+            </div>
+        </section>
+
+        <!-- Servizio 1: Grandi Marche -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Modelli per Grandi Marche</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Da oltre 20 anni collaboriamo con i più prestigiosi brand del lusso italiano e internazionale.
+                        La nostra esperienza nella modellistica di alta gamma ci ha resi partner fidato di case di moda
+                        che exigono precisione, qualità e attenzione ai dettagli.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Gucci -->
+                    <div class="group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                            <img 
+                                src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop" 
+                                alt="Modello ispirato Gucci"
+                                class="w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <div class="mt-4 text-center">
+                            <h3 class="text-xl font-semibold text-gray-900">Luxury Collection</h3>
+                            <p class="text-gray-600 mt-2">Precisione sartoriale per il lusso</p>
+                        </div>
+                    </div>
+
+                    <!-- Prada -->
+                    <div class="group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                            <img 
+                                src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=500&fit=crop" 
+                                alt="Modello ispirato Prada"
+                                class="w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <div class="mt-4 text-center">
+                            <h3 class="text-xl font-semibold text-gray-900">Alta Moda</h3>
+                            <p class="text-gray-600 mt-2">Eleganza senza compromessi</p>
+                        </div>
+                    </div>
+
+                    <!-- Armani -->
+                    <div class="group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                            <img 
+                                src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400&h=500&fit=crop" 
+                                alt="Modello ispirato Armani"
+                                class="w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <div class="mt-4 text-center">
+                            <h3 class="text-xl font-semibold text-gray-900">Premium Line</h3>
+                            <p class="text-gray-600 mt-2">Stile italiano nel mondo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 bg-gray-100 rounded-lg p-8">
+                    <p class="text-gray-700 text-center">
+                        <strong class="text-gray-900">Partner di eccellenza:</strong> Abbiamo contribuito alla realizzazione di collezioni
+                        per brand come <span class="font-semibold">Gucci, Prada, Armani, Versace e Dolce&Gabbana</span>.
+                        La nostra competenza nella modellistica complessa e nei tessuti pregiati ci rende il riferimento
+                        ideale per chi cerca qualità senza compromessi.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servizio 2: Low Cost -->
+        <section class="py-16 bg-green-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Modelli Low Cost & Sostenibili</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        La moda accessibile può essere sostenibile. Sviluppiamo modelli ottimizzati per la produzione
+                        efficiente, riducendo gli sprechi di tessuto e l'impatto ambientale senza rinunciare allo stile.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <!-- Shein Style 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img 
+                            src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=400&fit=crop" 
+                            alt="Modello fast fashion sostenibile"
+                            class="w-full h-64 object-cover"
+                        />
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Fast Fashion Consapevole</h3>
+                            <p class="text-gray-600">
+                                Modelli ispirati ai trend del momento, ottimizzati per ridurre gli scarti di produzione
+                                fino al 30%. Ogni capo è pensato per massimizzare l'uso del tessuto.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Shein Style 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img 
+                            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop" 
+                            alt="Modelli economici sostenibili"
+                            class="w-full h-64 object-cover"
+                        />
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Trend Accessibili</h3>
+                            <p class="text-gray-600">
+                                Le ultime tendenze a prezzi competitivi. Collaboriamo con brand come 
+                                <span class="font-semibold">Shein, Zara e H&M</span> per portare la moda
+                                a tutti, riducendo l'impatto ambientale.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environmental Impact -->
+                <div class="bg-gradient-to-r from-green-600 to-emerald-500 rounded-lg p-8 text-white">
+                    <div class="grid md:grid-cols-3 gap-8 text-center">
+                        <div>
+                            <div class="text-4xl font-bold mb-2">-30%</div>
+                            <p class="text-green-100">Spreco di tessuto</p>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold mb-2">-25%</div>
+                            <p class="text-green-100">Emissioni CO₂</p>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold mb-2">100%</div>
+                            <p class="text-green-100">Materiali riciclabili</p>
+                        </div>
+                    </div>
+                    <p class="text-center mt-8 text-green-100 text-lg">
+                        <strong>Salviamo il pianeta un modello alla volta.</strong> La nostra missione è dimostrare
+                        che la moda low cost può essere sostenibile. Ogni modello è progettato per minimizzare
+                        l'impatto ambientale, utilizzando tecniche di taglio intelligenti e materiali eco-friendly.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servizio 3: Consulenza -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Consulenza Personalizzata</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Offriamo servizi di consulenza per brand emergenti e affermati che desiderano ottimizzare
+                        i loro processi di modellistica e produzione.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Design & Prototipazione</h3>
+                        <p class="text-gray-600">Dall'idea al prototipo in tempi rapidi</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Sostenibilità</h3>
+                        <p class="text-gray-600">Ottimizzazione per ridurre gli sprechi</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-gray-50 rounded-lg">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Formazione Team</h3>
+                        <p class="text-gray-600">Corsi specializzati per il tuo staff</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gray-900">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Pronto a iniziare il tuo progetto?</h2>
+                <p class="text-gray-300 mb-8">
+                    Contattaci per una consulenza gratuita e scopri come possiamo aiutarti
+                </p>
+                <a 
+                    href="/contatti" 
+                    class="inline-block bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+                >
+                    Richiedi un Preventivo
+                </a>
+            </div>
+        </section>
+    </main>
+</Layout>
